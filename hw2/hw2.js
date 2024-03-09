@@ -25,9 +25,9 @@ let result = 2 ** 5;
 alert(result);
 
 // ЗАДАНИЕ 6
-let a = 9;
-let b =2;
-result = 9 % 2;
+let n = 9;
+let f =2;
+result = n % f;
 alert(result);
 
 
