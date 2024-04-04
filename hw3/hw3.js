@@ -11,18 +11,18 @@ else {
 //ЗАДАНИЕ 2
 let c = 5;
 if (c > 0 && c < 10) {
-console.log(‘Верно’);
+console.log('Верно');
 } else {
-console.log(‘Неверно’);
+console.log('Неверно');
 }
 
 //ЗАДАНИЕ 3
 const b = 42;
 const e = 103;
 if (b > 100 || e > 100) {
-console.log(“Верно”);
+console.log('Верно');
 } else {
-console.log(“Неверно”);
+console.log('Неверно');
 }
 
 //ЗАДАНИЕ 4
