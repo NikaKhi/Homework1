@@ -28,8 +28,7 @@ console.log('Неверно');
 //ЗАДАНИЕ 4
 let a = '2';
 let t = '3';
-let q = a + t;
-alert(typeof(q));
+alert(Number(a) + Number(t));
 
 //ЗАДАНИЕ 5
 let monthNumber = Number(prompt("Введите номер месяца"));
