@@ -14,36 +14,41 @@ console.log(people.sort(function(a, b) {
     return 0
 }));
 
- // Задание 2
+//Задание 2
 function isPositive(num) {
     if (num > 0) {
-        return num
+        return num;
     }
-}
-function isMale(gen) {
-    if (gen.gender === 'male') {
-        return gen;
     }
-}
-function filter(arr, ruleFunction) {
-    const output = [];
-    for (let i = 0; i < arr.length; i++) {
-        if (ruleFunction(arr[i])) {
-            output.push(ruleFunction(arr[i]));
-        }
+
+function isMale(name, gender) {
+    if (person.gender === 'male') {
+        return name + gender;
     } 
-    return output;
-}   
-console.log(filter([3, -4, 1, 9], isPositive));
+    }
+
+function filter(array, ruleFunction) {
+    let newArray = [];
+    for (let i = 0; i < array.length; i++) {
+        if (ruleFunction(array[i])) {
+            newArray.push(array[i]);
+        }
+    }
+        return newArray;
+    }
+    
+console.log(filter([3, -4, 1, 9], isPositive)); 
+ 
     
 const men = [
     {name: 'Глеб', gender: 'male'},
     {name: 'Анна', gender: 'female'},
     {name: 'Олег', gender: 'male'},
     {name: 'Оксана', gender: 'female'}
-]; 
-console.log(filter(men, isMale));
-
+    ];
+    
+console.log(filter(men, isMale)); 
+ 
 // Задание 3
 function timer() {
     let currentDate = new Date();
