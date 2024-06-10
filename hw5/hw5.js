@@ -82,6 +82,7 @@ return Math.PI * this.radius ** 2;
 function getCirclePerimeter() {
 return 2 * this.radius * Math.PI;
 }
+
 const circle1 = {
 radius: 5,
 getArea: getCircleArea,
