@@ -164,7 +164,7 @@ body {
 }
 .game__two_btn:hover {
   background: #EB443F;
-  cursor: url(img/.svg), pointer;
+  cursor: url(img/cursor.svg), pointer;
 }
 
 @media (max-width: 1024px) {
