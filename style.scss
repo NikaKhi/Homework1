@@ -150,8 +150,8 @@ body {
         line-height: 32px;
     }
     &_btn {
-        width: 240.441px;
-        height: 48.603px;
+        width: 240px;
+        height: 48px;
         flex-shrink: 0;
         border-radius: 30px;
         background: #9C0332;
@@ -161,6 +161,7 @@ body {
         &:hover {
             background: #EB443F;
             cursor: url(img/cursor.svg), pointer;
+
         }
     }
 }
