@@ -77,20 +77,21 @@ console.log(cube());
 
 // ЗАДАНИЕ 7
 function getCircleArea() {
-return 3.14 * this.radius ** 2;
+  return Math.PI * this.radius ** 2;
 }
 function getCirclePerimeter() {
-return 2 * this.radius * 3.14;
+  return 2 * this.radius * Math.PI;
 }
+
 const circle1 = {
-radius: 5,
-getArea: getCircleArea,
-getPerimeter: getCirclePerimeter,
+  radius: 5,
+  getArea: getCircleArea,
+  getPerimeter: getCirclePerimeter,
 };
 const circle2 = {
-radius: 3,
-getArea: getCircleArea,
-getPerimeter: getCirclePerimeter,
+  radius: 3,
+  getArea: getCircleArea,
+  getPerimeter: getCirclePerimeter,
 };
 console.log(circle1.getArea());
 console.log(circle1.getPerimeter());

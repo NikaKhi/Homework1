@@ -16,18 +16,15 @@ console.log(people.sort(function(a, b) {
 
 //Задание 2
 function isPositive(num) {
-    if (num > 0) {
-        return num;
-    }
-    }
+      return num > 0;
+}
 
-function isMale(name, gender) {
-    if (person.gender === 'male') {
-        return name + gender;
-    } 
-    }
+function isMale(person) {
+    return person.gender === 'male'; 
+}
 
 function filter(array, ruleFunction) {
+  
     let newArray = [];
     for (let i = 0; i < array.length; i++) {
         if (ruleFunction(array[i])) {
@@ -38,14 +35,13 @@ function filter(array, ruleFunction) {
     }
     
 console.log(filter([3, -4, 1, 9], isPositive)); 
- 
-    
+     
 const men = [
     {name: 'Глеб', gender: 'male'},
     {name: 'Анна', gender: 'female'},
     {name: 'Олег', gender: 'male'},
     {name: 'Оксана', gender: 'female'}
-    ];
+];
     
 console.log(filter(men, isMale)); 
  
