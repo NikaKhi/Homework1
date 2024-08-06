@@ -153,8 +153,9 @@ body {
   line-height: 32px;
 }
 .game__two_btn {
-  width: 240.441px;
-  height: 48.603px;
+  width: 240px;
+  height: 48px;
+
   flex-shrink: 0;
   border-radius: 30px;
   background: #9C0332;
